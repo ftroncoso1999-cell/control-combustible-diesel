@@ -1,0 +1,19 @@
+FASE 2.3 - VERSION ESCRITORIO LIMPIA
+
+ORDEN DE USO:
+
+1) Ejecutar:
+01_PROBAR_ESCRITORIO_PY312.bat
+
+2) Si abre bien, ejecutar:
+02_COMPILAR_EXE_FASE_2_3.bat
+
+3) Al finalizar, revisar:
+dist\ControlCombustibleDiesel_Fase_2_3
+
+4) Ejecutar:
+ControlCombustibleDiesel_Fase_2_3.exe
+
+IMPORTANTE:
+Para llevar a otro PC, copiar la carpeta completa:
+dist\ControlCombustibleDiesel_Fase_2_3

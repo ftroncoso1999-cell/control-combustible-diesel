@@ -1,0 +1,1 @@
+@echo off\ncd /d "%~dp0"\npy -m streamlit run app.py\npause\n
