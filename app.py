@@ -7,6 +7,7 @@ import textwrap
 
 import pandas as pd
 import streamlit as st
+from streamlit_autorefresh import st_autorefresh
 import altair as alt
 
 
@@ -22,7 +23,7 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="collapsed",
 )
-
+st_autorefresh(interval=1000, key="reloj")
 
 # =========================
 # DATOS / CÁLCULOS
