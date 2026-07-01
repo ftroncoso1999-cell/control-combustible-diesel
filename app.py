@@ -1461,7 +1461,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-now_str = datetime.now().strftime("%d-%m-%Y %H:%M:%S")
+now_str = datetime.now(ZoneInfo("America/Santiago")).strftime("%d-%m-%Y %H:%M:%S")
 
 st.markdown(
     f"""
