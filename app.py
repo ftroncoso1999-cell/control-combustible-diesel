@@ -167,6 +167,7 @@ def annul_record(record_id: int, motivo: str):
         """,
         (motivo.strip(), datetime.now(ZoneInfo("America/Santiago")).strftime("%Y-%m-%d %H:%M:%S"),
          int(record_id),
+        )
     )
     con.commit()
     con.close()
