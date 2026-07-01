@@ -128,7 +128,7 @@ def save_record(tank, nivel_cm, liters, pct, estado, operador, obs):
         VALUES (?, ?, ?, ?, ?, ?, ?, ?, 'VÁLIDO')
         """,
         (
-            datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            datetime.now(ZoneInfo("America/Santiago")).strftime("%Y-%m-%d %H:%M:%S")
             tank,
             float(nivel_cm),
             float(liters),
